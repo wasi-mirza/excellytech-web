@@ -10,10 +10,12 @@ import EndpointSecurity from "./pages/EndpointSecurity";
 import DisasterRecovery from "./pages/DisasterRecovery";
 import SaasBackup from "./pages/SaasBackup";
 import BlogDetailsRoute from "./pages/blogs/[slug]";
+import ScrollToTop from "./components/scrollToTop";
 export default function App() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/blogs" element={<Blogs />} />

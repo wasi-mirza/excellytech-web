@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import parse from 'html-react-parser';
 
 export default function BlogCard({ blog }: { blog: any }) {
   return (
@@ -36,8 +37,8 @@ export default function BlogCard({ blog }: { blog: any }) {
         </div>
 
         {/* Description */}
-        <p className="text-gray-700 dark:text-gray-300 text-sm line-clamp-5 mb-2">
-          {blog.description}
+        <p className="text-gray-700 dark:text-gray-300 text-sm line-clamp-3 mb-2">
+          {parse(blog.description)}
         </p>
 
         {/* Optional footer text */}

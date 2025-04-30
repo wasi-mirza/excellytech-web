@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import parse from "html-react-parser";
 
 interface BlogCardProps {
   blog: {
@@ -10,13 +11,13 @@ interface BlogCardProps {
   };
   variant?: "default" | "horizontal";
   onClick?: () => void;
-
 }
 
-export default function BlogCardBasic({ blog, variant = "default", onClick }: BlogCardProps) {
-  const truncateText = (text: string, maxLength = 200) =>
-    text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
-
+export default function BlogCardBasic({
+  blog,
+  variant = "default",
+  onClick,
+}: BlogCardProps) {
   if (variant === "horizontal") {
     return (
       <Link
@@ -35,8 +36,8 @@ export default function BlogCardBasic({ blog, variant = "default", onClick }: Bl
           <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
             {blog.title}
           </h2>
-          <p className="text-gray-700 dark:text-gray-300 text-sm">
-            {truncateText(blog.description, 200)}
+          <p className="text-gray-700 dark:text-gray-300 text-sm line-clamp-2">
+            {parse(blog.description)}
           </p>
           <span className="mt-3 inline-block text-sm font-medium text-primary hover:underline">
             Continue Reading →

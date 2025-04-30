@@ -1,3 +1,5 @@
+import { endpointSecurityDescription } from "./blogDescription";
+
 export const blogsData = [
   {
     id: 1,
@@ -6,8 +8,9 @@ export const blogsData = [
       "https://excelytech.com/wp-content/uploads/2024/10/5-Ways-to-Strengthen-Endpoint-Security-in-2024-2048x1152.jpg",
     categories: ["Endpoint Security", "Excelytech Cybersecurity", "Security"],
     description:
-      "In today’s digital landscape, a strong business continuity plan is critical...",
+      endpointSecurityDescription,
     slug: "5-ways-to-strengthen-endpoint-security-in-2024",
+    tags: ["Cybersecurity", "Data Protection", "Endpoint Security", "Malware Prevention", "Security Awareness"],
     date: "2024-02-01",
   },
   {

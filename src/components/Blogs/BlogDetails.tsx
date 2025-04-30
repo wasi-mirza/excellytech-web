@@ -1,6 +1,8 @@
 import PreviousNextNav from "./PreviousNextNav";
 import { blogsData } from "../../data/blog_data";
 import BlogCardBasic from "./BlogCardBasic";
+import parse from 'html-react-parser';
+
 export default function BlogDetailsPage({
   blog,
   previousPost,
@@ -45,9 +47,8 @@ export default function BlogDetailsPage({
 
       {/* Description */}
       <div className="prose dark:prose-invert max-w-none prose-a:text-primary prose-li:marker:text-primary">
-        {blog.description}
+        {parse(blog.description)}
       </div>
-
       {/* Previous / Next */}
       <PreviousNextNav previousBlog={previousPost} nextBlog={nextPost} />
 
