@@ -34,10 +34,10 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-4">Solutions</h4>
           <ul className="space-y-2 text-sm text-slate-400">
-            <li><Link to="/endpoint-protection" className="hover:text-white transition">Endpoint Protection</Link></li>
-            <li><Link to="/endpoint-security" className="hover:text-white transition">Endpoint Security</Link></li>
-            <li><Link to="/disaster-recovery" className="hover:text-white transition">Disaster Recovery</Link></li>
-            <li><Link to="/saas-backup" className="hover:text-white transition">SaaS Backup</Link></li>
+            <li><Link to="/services/endpoint-protection" className="hover:text-white transition">Endpoint Protection</Link></li>
+            <li><Link to="/services/endpoint-security" className="hover:text-white transition">Endpoint Security</Link></li>
+            <li><Link to="/services/disaster-recovery" className="hover:text-white transition">Disaster Recovery</Link></li>
+            <li><Link to="/services/saas-backup" className="hover:text-white transition">SaaS Backup</Link></li>
           </ul>
         </div>
 
@@ -45,8 +45,8 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-4">Company</h4>
           <ul className="space-y-2 text-sm text-slate-400">
-            <li><Link to="/client-login" className="hover:text-white transition">Client Login</Link></li>
-            <li><Link to="/about-us" className="hover:text-white transition">About Us</Link></li>
+            <li><Link to="https://portal.excelytech.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Client Login</Link></li>
+            <li><Link to="/about" className="hover:text-white transition">About Us</Link></li>
             <li><Link to="/contact" className="hover:text-white transition">Contact Us</Link></li>
             <li><Link to="/terms" className="hover:text-white transition">Terms & Conditions</Link></li>
             <li><Link to="/privacy-policy" className="hover:text-white transition">Privacy Policy</Link></li>
