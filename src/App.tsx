@@ -9,6 +9,7 @@ import EndpointProtection from "./pages/EndpointProtection";
 import EndpointSecurity from "./pages/EndpointSecurity";
 import DisasterRecovery from "./pages/DisasterRecovery";
 import SaasBackup from "./pages/SaasBackup";
+import BlogDetailsRoute from "./pages/blogs/[slug]";
 export default function App() {
   return (
     <>
@@ -31,6 +32,7 @@ export default function App() {
           element={<DisasterRecovery />}
         />
         <Route path="/services/saas-backup" element={<SaasBackup />} />
+        <Route path="/blogs/:slug" element={<BlogDetailsRoute />} />
       </Routes>
       <Footer />
     </>

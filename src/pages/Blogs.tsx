@@ -1,7 +1,6 @@
 
-// pages/BlogsPage.jsx
 import { useState } from "react";
-import BlogCard from "../components/BlogCard";
+import BlogCard from "../components/Blogs/BlogCard";
 import { blogsData } from "../data/blog_data";
 const extractCategories = (blogs: any) => {
   const categorySet = new Set();
