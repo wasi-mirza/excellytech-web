@@ -9,10 +9,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link
-        to="/"
-        className="hover:scale-105 transition-transform"
-      >
+          <Link to="/" className="hover:scale-105 transition-transform">
             <img src={etLogo} alt="Excelytech Logo" className="w-36" />
           </Link>
 
@@ -40,34 +37,37 @@ export default function Header() {
               <button className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors">
                 Services
               </button>
-              {showDropdown && (
-                <div className="absolute top-full mt-2 bg-white dark:bg-slate-800 shadow-lg rounded-md py-2 w-56 border border-slate-200 dark:border-slate-700 z-10">
-                  <Link
-                    to="/services/endpoint-protection"
-                    className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700"
-                  >
-                    Endpoint Protection
-                  </Link>
-                  <Link
-                    to="/services/endpoint-security"
-                    className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700"
-                  >
-                    Endpoint Security
-                  </Link>
-                  <Link
-                    to="/services/disaster-recovery"
-                    className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700"
-                  >
-                    Disaster Recovery
-                  </Link>
-                  <Link
-                    to="/services/saas-backup"
-                    className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700"
-                  >
-                    SaaS Backup
-                  </Link>
-                </div>
-              )}
+
+              <div
+                className={`absolute top-full mt-2 bg-white dark:bg-slate-800 shadow-lg rounded-md py-2 w-56 border border-slate-200 dark:border-slate-700 z-10 transition-all duration-150 ${
+                  showDropdown ? "opacity-100 visible" : "opacity-0 invisible"
+                }`}
+              >
+                <Link
+                  to="/services/endpoint-protection"
+                  className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700"
+                >
+                  Endpoint Protection
+                </Link>
+                <Link
+                  to="/services/endpoint-security"
+                  className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700"
+                >
+                  Endpoint Security
+                </Link>
+                <Link
+                  to="/services/disaster-recovery"
+                  className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700"
+                >
+                  Disaster Recovery
+                </Link>
+                <Link
+                  to="/services/saas-backup"
+                  className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-slate-700"
+                >
+                  SaaS Backup
+                </Link>
+              </div>
             </div>
 
             <Link
