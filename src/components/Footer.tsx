@@ -48,7 +48,7 @@ export default function Footer() {
             <li><Link to="https://portal.excelytech.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Client Login</Link></li>
             <li><Link to="/about" className="hover:text-white transition">About Us</Link></li>
             <li><Link to="/contact" className="hover:text-white transition">Contact Us</Link></li>
-            <li><Link to="/terms" className="hover:text-white transition">Terms & Conditions</Link></li>
+            <li><Link to="/terms-and-conditions" className="hover:text-white transition">Terms & Conditions</Link></li>
             <li><Link to="/privacy-policy" className="hover:text-white transition">Privacy Policy</Link></li>
           </ul>
         </div>
