@@ -5,7 +5,10 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutUs from "./pages/AboutUs";
 import ContactPage from "./pages/contact";
-
+import EndpointProtection from "./pages/EndpointProtection";
+import EndpointSecurity from "./pages/EndpointSecurity";
+import DisasterRecovery from "./pages/DisasterRecovery";
+import SaasBackup from "./pages/SaasBackup";
 export default function App() {
   return (
     <>
@@ -15,6 +18,19 @@ export default function App() {
         <Route path="/blogs" element={<BlogsPage />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route
+          path="/services/endpoint-protection"
+          element={<EndpointProtection />}
+        />
+        <Route
+          path="/services/endpoint-security"
+          element={<EndpointSecurity />}
+        />
+        <Route
+          path="/services/disaster-recovery"
+          element={<DisasterRecovery />}
+        />
+        <Route path="/services/saas-backup" element={<SaasBackup />} />
       </Routes>
       <Footer />
     </>
