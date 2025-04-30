@@ -1,4 +1,3 @@
-// src/pages/Contact.tsx
 import { useState } from "react";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
