@@ -7,7 +7,8 @@ export const blogsData = [
     categories: ["Endpoint Security", "Excelytech Cybersecurity", "Security"],
     description:
       "In today’s digital landscape, a strong business continuity plan is critical...",
-    slug: "why-business-continuity-matters",
+    slug: "5-ways-to-strengthen-endpoint-security-in-2024",
+    date: "2024-02-01",
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ export const blogsData = [
     categories: ["Endpoint Security", "Security"],
     description:
       "Endpoints are vulnerable and often the target of malicious attacks...",
-    slug: "top-threats-to-endpoint-security",
+    slug: "5-effective-strategies-for-strong-endpoint-security-in-2024",
+    date: "2024-02-24",
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ export const blogsData = [
     categories: ["Excelytech Design", "Mobile Apps"],
     description:
       "Disaster recovery is a critical aspect of business continuity...",
-    slug: "the-importance-of-disaster-recovery",
+    slug: "mobile-app-development-5-key-trends-for-success",
+    date: "2024-03-02",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const blogsData = [
     description:
       "As technology continues to evolve, web development is undergoing a significant transformation. Modern web development is no longer just about creating static pages; it now encompasses a wide range of…",
     slug: "web-development-7-trends-you-cant-ignore",
+    date: "2024-05-13",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const blogsData = [
     description:
       "In the fast-paced world of business, digital marketing has emerged as a crucial component for success. With consumers spending an increasing amount of time online, businesses must adapt their marketing...",
     slug: "digital-marketing-6-key-strategies-for-success",
+    date: "2024-07-19",
   },
   {
     id: 6,
@@ -59,6 +64,7 @@ export const blogsData = [
     description:
       "In today's digital landscape, a strong online presence is essential for businesses to thrive. Web development plays a critical role in creating user-friendly, responsive, and engaging websites. As we move…",
     slug: "the-ultimate-guide-to-web-development-in-2024-trends-and-best-practices-with-excelytech",
+    date: "2024-09-20",
   },
   {
     id: 7,
@@ -69,6 +75,7 @@ export const blogsData = [
     description:
       "As the digital landscape evolves, so do the strategies that businesses use to connect with their audiences. In 2024, effective digital marketing requires a multifaceted approach that leverages the latest…",
     slug: "digital-marketing-5-strategies-for-2024-success",
+    date: "2024-11-20",
   },
   {
     id: 8,
@@ -79,6 +86,7 @@ export const blogsData = [
     description:
       "As organizations increasingly migrate to cloud computing, cloud adoption has become a central component of modern IT strategies. Cloud technologies provide the agility, scalability, and flexibility that businesses need to…",
     slug: "cloud-adoption-5-essential-strategies-for-success",
+    date: "2024-12-20",
   },
   {
     id: 9,
@@ -89,6 +97,7 @@ export const blogsData = [
     description:
       "In today’s fast-paced business environment, ensuring high availability (HA) is critical for maintaining operational continuity. Organizations must have robust strategies in place to mitigate the risk of downtime and data…",
     slug: "disaster-recovery-5-strategies-for-high-availability",
+    date: "2024-01-20",
   },
   {
     id: 10,
@@ -99,6 +108,7 @@ export const blogsData = [
     description:
       "In today’s fast-paced digital world, backup and restore strategies are essential for any business. Data is a vital asset, and the loss of it can lead to significant operational disruptions,…",
     slug: "backup-and-restore-7-strategies-for-business-continuity",
+    date: "2025-01-14",
   },
   {
     id: 11,
@@ -109,6 +119,7 @@ export const blogsData = [
     description:
       "As organizations increasingly rely on cloud-based services, SaaS backup has become a critical component of business continuity strategies. SaaS backup ensures that critical data is protected and can be restored quickly in case of…",
     slug: "saas-backup-5-reasons-for-business-continuity",
+    date: "2025-02-04",
   },
   {
     id: 12,
@@ -119,6 +130,7 @@ export const blogsData = [
     description:
       "Cloud computing has transformed how businesses operate, providing flexible and efficient solutions for data storage, processing, and management. In an era marked by remote work and digital transformation, understanding cloud…",
     slug: "cloud-computing-5-key-benefits-and-challenges",
+    date: "2024-06-06",
   },
   {
     id: 13,
@@ -129,6 +141,7 @@ export const blogsData = [
     description:
       "In the modern business landscape, cloud computing has redefined how organizations operate, offering flexible, scalable, and cost-effective solutions for managing IT infrastructure. As businesses increasingly adopt cloud services, understanding the…",
     slug: "cloud-computing-5-ways-it-transforms-your-it",
+    date: "2024-08-24",
   },
   {
     id: 14,
@@ -139,6 +152,7 @@ export const blogsData = [
     description:
       "In today’s digital landscape, where remote work and cloud computing are the new standard, endpoint security has become a cornerstone of cybersecurity strategies. With an ever-growing number of devices accessing…",
     slug: "endpoint-security-7-ways-to-protect-your-organization",
+    date: "2024-11-26",
   },
   {
     id: 15,
@@ -149,6 +163,7 @@ export const blogsData = [
     description:
       "The mobile app industry is more dynamic than ever, with billions of users worldwide depending on apps to meet daily needs—from social networking to shopping and beyond. As we step…",
     slug: "mobile-app-development-5-key-trends-for-2024",
+    date: "2024-12-19",
   },
   {
     id: 16,
@@ -159,6 +174,7 @@ export const blogsData = [
     description:
       "In today’s fast-paced business environment, ensuring high availability (HA) of critical systems and services is paramount. Unexpected disruptions can lead to significant losses in revenue, reputation, and customer trust. This…",
     slug: "high-availability-5-strategies-for-business-continuity",
+    date: "2024-05-19",
   },
   {
     id: 17,
@@ -169,6 +185,7 @@ export const blogsData = [
     description:
       "Cloud technology has revolutionized the way businesses operate, offering unprecedented flexibility, scalability, and efficiency. By leveraging cloud technology, organizations can enhance collaboration, reduce costs, and improve their overall operational performance…",
     slug: "cloud-technology-5-ways-to-transform-operations",
+    date: "2024-12-04",
   },
   {
     id: 18,
@@ -179,6 +196,7 @@ export const blogsData = [
     description:
       "In today’s digital world, data protection is more critical than ever. With the increasing volume of data generated by businesses and the potential for data breaches, it’s essential to implement…",
     slug: "data-protection-7-key-strategies-for-2024",
+    date: "2024-07-20",
   },
   {
     id: 19,
@@ -189,6 +207,7 @@ export const blogsData = [
     description:
       "In today’s fast-paced digital landscape, maintaining business continuity is paramount for organizations of all sizes. Disruptions can occur at any time—whether due to cyberattacks, natural disasters, or system failures. A…",
     slug: "backup-and-restore-5-essential-strategies-for-2024",
+    date: "2024-09-20",
   },
   {
     id: 20,
@@ -198,5 +217,7 @@ export const blogsData = [
     image:
       "https://excelytech.com/wp-content/uploads/2024/10/Why-Small-Businesses-Need-to-Prioritize-Data-Protection-in-2024.png",
     categories: ["Backup and Restore"],
+    slug: "5-reasons-small-businesses-must-prioritize-data-protection-in-2024",
+    date: "2024-11-20",
   },
 ];
