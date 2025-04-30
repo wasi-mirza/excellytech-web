@@ -18,6 +18,7 @@ export const blogsData = [
     categories: ["Endpoint Security", "Security"],
     description:
       "Endpoints are vulnerable and often the target of malicious attacks...",
+
     slug: "5-effective-strategies-for-strong-endpoint-security-in-2024",
     date: "2024-02-24",
   },
@@ -219,5 +220,6 @@ export const blogsData = [
     categories: ["Backup and Restore"],
     slug: "5-reasons-small-businesses-must-prioritize-data-protection-in-2024",
     date: "2024-11-20",
+
   },
 ];
