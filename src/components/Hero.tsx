@@ -132,13 +132,6 @@ export default function Hero() {
             <span className="text-white font-semibold">seamlessly rewind</span>{" "}
             your business to the exact moment before downtime struck.
           </p>
-
-          <a
-            href="/get-started"
-            className="inline-block bg-primary hover:bg-primary-hover text-white px-8 py-3 rounded-lg text-lg font-medium transition duration-300"
-          >
-            Get Started Now
-          </a>
         </div>
       </div>
 
@@ -155,7 +148,7 @@ export default function Hero() {
               every byte matters!
             </p>
             <Link
-              to="/how-it-works"
+              to="/services/endpoint-protection"
               className="inline-block bg-primary hover:bg-primary-hover text-white px-6 py-3 rounded-lg transition"
             >
               See How
@@ -176,7 +169,7 @@ export default function Hero() {
               the best backup will do.
             </p>
             <Link
-              to="/learn-more"
+              to="/services/disaster-recovery"
               className="inline-block bg-primary hover:bg-primary-hover text-white px-6 py-3 rounded-lg transition"
             >
               Learn More
