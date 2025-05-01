@@ -1,7 +1,5 @@
 export default function PrivacyPolicy() {
   return (
-    //     <div className="bg-gradient-to-br from-slate-900 to-black text-white px-4 py-24 space-y-24">
-
     <section className="bg-gradient-to-br from-slate-900 to-black text-white px-4 py-20 space-y-20 min-h-screen">
       <div className="max-w-4xl mx-auto">
         <div className="mt-10 mb-8">
