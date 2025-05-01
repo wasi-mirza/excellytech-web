@@ -4,7 +4,7 @@ import Blogs from "./pages/Blogs";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutUs from "./pages/AboutUs";
-import ContactPage from "./pages/contact";
+import ContactPage from "./pages/Contact";
 import EndpointProtection from "./pages/EndpointProtection";
 import EndpointSecurity from "./pages/EndpointSecurity";
 import DisasterRecovery from "./pages/DisasterRecovery";

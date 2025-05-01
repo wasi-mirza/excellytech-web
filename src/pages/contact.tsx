@@ -57,7 +57,7 @@ export default function ContactPage() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <section className="min-h-screen bg-slate-50 dark:bg-slate-900 px-6 py-24 flex items-center justify-center">
+    <section className="min-h-screen bg-gradient-to-br from-slate-900 to-black px-6 py-24 flex items-center justify-center">
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Left: Text + Info */}
         <div className="flex flex-col justify-center space-y-6">

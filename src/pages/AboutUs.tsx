@@ -3,6 +3,7 @@ import { faqs } from "../data/faq_data";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 import vision from "../assets/images/vision-about.png";
 import goal from "../assets/images/goal-about.png";
+import { Link } from "react-router-dom";
 
 export default function AboutUs() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -10,7 +11,7 @@ export default function AboutUs() {
     setOpenIndex(openIndex === index ? null : index);
 
   return (
-    <div className="bg-gray-900 text-white px-4 py-16 space-y-24">
+    <div className="bg-gradient-to-br from-slate-900 to-black text-white px-4 py-24 space-y-24">
       {/* Intro */}
       <section className="max-w-6xl mx-auto text-center space-y-6 px-4">
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
@@ -116,16 +117,18 @@ export default function AboutUs() {
               "Securing SaaS data to maintain consistent, resilient business operations.",
           },
         ].map((item, index) => (
-          <div
-            key={index}
-            className="bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-xl transition"
-          >
-            <h4 className="text-xl font-semibold mb-2">{item.title}</h4>
-            <p className="text-slate-300 mb-4">{item.description}</p>
-            <button className="text-indigo-400 hover:text-indigo-300 font-semibold transition">
-              Learn More →
-            </button>
-          </div>
+          <Link
+          key={index}
+          to={`/services/${item.title.toLowerCase().replace(/\s+/g, '-')}`}
+          className=" cursor-pointer bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-180 transition duration-300"
+        >
+          <h4 className="text-xl font-semibold mb-2 text-white">{item.title}</h4>
+          <p className="text-slate-300 mb-4">{item.description}</p>
+          <button className="text-indigo-400 hover:text-indigo-300 font-semibold transition">
+            Learn More →
+          </button>
+        </Link>
+        
         ))}
       </section>
 

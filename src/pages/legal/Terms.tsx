@@ -1,6 +1,6 @@
 export default function TermsAndConditions() {
   return (
-    <section className="px-4 py-10 md:px-20 lg:px-40 bg-white dark:bg-gray-900 min-h-screen">
+    <section className="bg-gradient-to-br from-slate-900 to-black text-white px-4 py-20 space-y-20 min-h-screen">
       <div className="max-w-4xl mx-auto">
         <div className="mt-10 mb-8">
           <p className="text-sm text-gray-500 dark:text-gray-400 uppercase tracking-wide">

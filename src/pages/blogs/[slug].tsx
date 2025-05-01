@@ -29,6 +29,7 @@ export default function BlogDetailsRoute() {
   const isSearching = Boolean(searchTerm);
 
   return (
+    <section className=" bg-gradient-to-br from-slate-900 to-black">
     <div className="max-w-7xl mx-auto px-6 pt-24 pb-12 grid grid-cols-1 md:grid-cols-3 gap-10">
       {/* LEFT PANE */}
       <div className="md:col-span-2">
@@ -66,8 +67,9 @@ export default function BlogDetailsRoute() {
       <BlogSidebar
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
-        recentBlogs={blogsData.slice(0, 5)}
-      />
-    </div>
+          recentBlogs={blogsData.slice(0, 5)}
+        />
+      </div>
+    </section>
   );
 }
